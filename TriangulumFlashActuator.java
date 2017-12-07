@@ -33,7 +33,7 @@ public class TriangulumFlashActuator {
             System.out.print("Enter the distance of your target in km: ");
             distance = stdin.nextDouble();
             IsoscelesTriangle triangulumFlash = new IsoscelesTriangle(100.0, distance);
-            System.out.println("The angle to tilt your ship after aligning with the target is " + (int)triangulumFlash.getEqualAngles() + " degree.");
+            System.out.println("The angle to tilt your ship after aligning with the target is " + (int)triangulumFlash.getEqualAngles() + " degrees.");
             System.out.print("Another target? (Y/N): ");
             stdin.nextLine();
             resume = stdin.nextLine();
